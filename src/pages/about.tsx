@@ -9,6 +9,7 @@ import DoorLock from "../components/doorLock"
 const SecondPage = (props: PageProps) => (
   <Layout>
     <SEO title="About" />
+    <DoorLock />
     <Link to="/">Home</Link>
     <Link to="/store">Store</Link>
   </Layout>
