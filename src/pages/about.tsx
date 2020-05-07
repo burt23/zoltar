@@ -4,14 +4,14 @@ import { PageProps, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import DoorLock from "../components/doorLock"
 
 const SecondPage = (props: PageProps) => (
   <Layout>
     <SEO title="About" />
-    <h1>Under Construction</h1>
-    <p>Come back soon!</p>
+    <DoorLock />
     {/* <p>Welcome to page 2 ({props.path})</p> */}
-    <Link to="/">Go back to the homepage</Link>
+    <Link to="/">Home</Link>
   </Layout>
 )
 
