@@ -1,5 +1,8 @@
 import React from "react"
-import { TimelineMax, TweenMax, Sine, Elastic } from "gsap"
+import { gsap, TimelineMax, TweenMax, Sine, Elastic } from "gsap"
+import { CSSPlugin } from "gsap/CSSPlugin"
+
+gsap.registerPlugin(CSSPlugin)
 
 export default class DoorLock extends React.Component {
   constructor(props) {

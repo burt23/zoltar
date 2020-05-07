@@ -9,13 +9,8 @@ import DoorLock from "../components/doorLock"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    {/* <h1>Under Construction</h1>
-    <p>Something great is a brewin'</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-       <Image /> 
-    </div> */}
-    <DoorLock />
     <Link to="/about/">About</Link>
+    <Link to="/store/">Store</Link>
   </Layout>
 )
 
