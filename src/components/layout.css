@@ -202,7 +202,13 @@ body {
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   overflow: hidden;
-  background-image: radial-gradient(circle at center, #E08E79, #F1D4AF, #ECE5CE, #C5E0DC);
+  background-image: radial-gradient(
+    circle at center,
+    rgb(46, 16, 9),
+    rgb(39, 54, 37),
+    rgb(34, 80, 27),
+    rgb(22, 85, 75)
+  );
   height: 100vh;
   font-weight: normal;
   word-wrap: break-word;
