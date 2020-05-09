@@ -58,7 +58,7 @@ picture > img {
   background: deeppink;
 }
 #p5 {
-  background: rebeccapurple;
+  background: #0c9fd8;
 }
 
 #t2:target #p2,
@@ -156,7 +156,8 @@ a {
 
 .title,
 .hint {
-  display: block;
+  /* display: block; */
+  padding: 1rem;
 }
 
 .title {
@@ -264,4 +265,11 @@ section#homepage {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.banner {
+  /* border: 10px solid; */
+  padding: 2rem;
+  max-width: 65vmin;
+  z-index: 88;
 }

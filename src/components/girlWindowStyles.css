@@ -1,0 +1,7 @@
+.girlWindowWrapper {
+  position: absolute;
+  bottom: -10vh;
+  right: 0;
+  height: 50vmax;
+  width: 50vmax;
+}

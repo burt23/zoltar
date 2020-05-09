@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./girlWindowStyles.css"
 export default function girlWindowSVG() {
   return (
     <div class="girlWindowWrapper">

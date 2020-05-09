@@ -1,5 +1,65 @@
 import React from "react"
 import "./citySvg.css"
+const Switch = () => (
+  <div id="switch-container">
+    <input type="checkbox" class="toggle" id="switch" />
+    <h3 id="title">Switch between </h3>
+    <label for="switch">
+      <div class="switcher" id="on"></div>
+    </label>
+    <div id="back">
+      <div id="css-moon">
+        <div id="rotate">
+          <div id="oval-container">
+            <span class="texture oval t1"></span>
+            <span class="texture oval t2"></span>
+            <span class="texture oval t3"></span>
+            <span class="texture oval t4"></span>
+            <span class="texture oval t5"></span>
+          </div>
+          <div id="circle-container">
+            <span class="texture circle at1"></span>
+            <span class="texture circle at2"></span>
+            <span class="texture circle at3"></span>
+          </div>
+        </div>
+      </div>
+      <img
+        id="moon"
+        src="https://dl.dropboxusercontent.com/u/12646264/assets/luna.svg"
+      />
+      <div id="stars"></div>
+      <ul>
+        <li class="star" id="star-1"></li>
+        <li class="star" id="star-2"></li>
+        <li class="star" id="star-3"></li>
+        <li class="star" id="star-4"></li>
+        <li class="star" id="star-5"></li>
+        <li class="star" id="star-6"></li>
+        <li class="star" id="star-7"></li>
+        <li class="star" id="star-8"></li>
+      </ul>
+      <div id="sun"></div>
+      <div id="cloud-container">
+        <img
+          class="cloud"
+          id="cloud-1"
+          src="https://dl.dropboxusercontent.com/u/12646264/assets/nube.svg"
+        />
+        <img
+          class="cloud"
+          id="cloud-2"
+          src="https://dl.dropboxusercontent.com/u/12646264/assets/nube.svg"
+        />
+        <img
+          class="cloud"
+          id="cloud-3"
+          src="https://dl.dropboxusercontent.com/u/12646264/assets/nube.svg"
+        />
+      </div>
+    </div>
+  </div>
+)
 
 class CitySvg extends React.Component {
   componentDidMount() {
@@ -30,6 +90,7 @@ class CitySvg extends React.Component {
         viewBox="0 0 1031.41 300"
         className="container"
       >
+        <Switch />
         <g
           className="house"
           id="house-seven"
