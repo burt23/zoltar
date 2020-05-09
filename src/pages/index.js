@@ -3,10 +3,11 @@ import ZoltarLogoTrans from "../components/zoltarLogoTrans"
 import CitySvg from "../components/citySvg"
 import GirlWinowSvg from "../components/girlWindowSvg"
 import ZoltarGlitch from "../components/ZoltarGlitch"
+// import SocialIcons from "../components/SocialIcons"
+// import Subscribe from "../components/subscribe"
 import SEO from "../components/seo"
 import "./index.css"
-import { FaGalacticRepublic } from "react-icons/fa"
-import { GiCastleRuins } from "react-icons/gi"
+import { GiCastleRuins, GiMagicPortal } from "react-icons/gi"
 
 const IndexPage = () => (
   <>
@@ -23,10 +24,10 @@ const IndexPage = () => (
             <div className="ct" id="t5">
               <ul id="menu">
                 <a href="#t1">
-                  <GiCastleRuins className="icon" id="uno" />
+                  <GiCastleRuins className="icon" size="2x" id="uno" />
                 </a>
                 <a href="#t5">
-                  <FaGalacticRepublic className="icon" id="cinco" />
+                  <GiMagicPortal className="icon" size="2x" id="cinco" />
                 </a>
               </ul>
               <div className="page" id="p1">
