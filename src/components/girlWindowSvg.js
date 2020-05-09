@@ -2,10 +2,10 @@ import React from "react"
 import "./girlWindowStyles.css"
 export default function girlWindowSVG() {
   return (
-    <div class="girlWindowWrapper">
+    <div className="girlWindowWrapper">
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="portrait"
+        className="portrait"
         viewBox="0 0 398.77 358.79"
         id="girlWindowSvg"
       >
