@@ -1,16 +1,16 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import Layout from "../components/layout"
+// import Layout from "../components/layout"
 import ZoltarLogoTrans from "../components/zoltarLogoTrans"
 import CitySvg from "../components/citySvg"
-import GirlWinowSvg from "../components/girlWindowSvg"
-import SEO from "../components/seo"
-import DoorLock from "../components/doorLock"
+// import GirlWinowSvg from "../components/girlWindowSvg"
+// import SEO from "../components/seo"
+// import DoorLock from "../components/doorLock"
 import "./index.css"
-import ZoltarLogoBlack from "../components/zoltarLogoBlack"
-import { FaBeer, FaGalacticSenate, FaGalacticRepublic } from "react-icons/fa"
-import { GiCastleRuins, GiBurningPassion, GiMagicPortal } from "react-icons/gi"
+// import ZoltarLogoBlack from "../components/zoltarLogoBlack"
+// import { FaGalacticSenate, FaGalacticRepublic } from "react-icons/fa"
+// import { GiCastleRuins, GiBurningPassion, GiMagicPortal } from "react-icons/gi"
 
 const IndexPage = () => (
   <>
@@ -19,7 +19,7 @@ const IndexPage = () => (
         <div class="ct" id="t3">
           <div class="ct" id="t4">
             <div class="ct" id="t5">
-              <ul id="menu">
+              {/* <ul id="menu">
                 <a href="#t1">
                   <GiCastleRuins className="icon" id="uno" />
                 </a>
@@ -35,15 +35,14 @@ const IndexPage = () => (
                 <a href="#t5">
                   <GiMagicPortal className="icon" id="cinco" />
                 </a>
-              </ul>
+              </ul> */}
               <div className="page" id="p1">
                 <section id="homepage">
                   <CitySvg />
-                  {/* <ZoltarLogoBlack /> */}
                   <ZoltarLogoTrans />
                 </section>
               </div>
-              <div className="page" id="p2">
+              {/* <div className="page" id="p2">
                 <CitySvg />
               </div>
               <div className="page" id="p3">
@@ -68,7 +67,7 @@ const IndexPage = () => (
                     </span>
                   </p>
                 </section>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

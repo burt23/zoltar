@@ -16,7 +16,9 @@ import Img from "gatsby-image"
 const ZoltarLogoTrans = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "zoltarLogoTrueTrans.png" }) {
+      placeholderImage: file(
+        relativePath: { eq: "zoltarLogoTransparent.png" }
+      ) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid

@@ -1,68 +1,5 @@
 import React from "react"
-import { TweenMax, Linear, gsap, CSSPlugin } from "gsap"
-// import * as $ from "jquery"
-
-// Force CSSPlugin to not get dropped during build
-// gsap.registerPlugin(CSSPlugin)
-
 import "./citySvg.css"
-
-let frame = document.querySelector(".frame")
-// import { TimelineLite, CSSPlugin } from 'gsap/all';
-// import tab from '../../assets/images/arrow.png';
-// import {
-//     Col
-//   } from 'react-bootstrap'
-//need this to avoid tree shake of CSSPlugin
-const plugins = [CSSPlugin]
-
-const createFrame = () => {
-  const girlWindowSvg = document.querySelector("#girlWindowSvg")
-  const newFrame = document.createElement("div")
-  newFrame.classList.add("frame")
-  girlWindowSvg.appendChild(newFrame)
-  return girlWindowSvg
-}
-
-const getFrame = () => {
-  if (!frame) {
-    frame = createFrame()
-  }
-  return frame
-}
-
-let raf
-let start = {
-  x: 0,
-  y: 0,
-}
-
-function lerp(start, end) {
-  const dx = end.x - start.x
-  const dy = end.y - start.y
-
-  return {
-    x: start.x + dx * 0.1,
-    y: start.y + dy * 0.1,
-  }
-}
-
-document.addEventListener("mousemove", e => {
-  const end = {
-    x: (e.clientX / window.innerWidth - 0.5) * 2,
-    y: (e.clientY / window.innerHeight - 0.5) * 2,
-  }
-  start = lerp(start, end)
-  raf = raf || requestAnimationFrame(update)
-})
-
-function update() {
-  const updateFrame = getFrame()
-  console.log("updated frame", updateFrame)
-  updateFrame.style.setProperty("--x", start.x)
-  updateFrame.style.setProperty("--y", start.y)
-  raf = null
-}
 
 class CitySvg extends React.Component {
   componentDidMount() {
@@ -77,14 +14,6 @@ class CitySvg extends React.Component {
       this.wheel2,
     ]
     this.index = "10"
-    // $(".container").parallax({ scalarX: 5, scalarY: 5 })
-    // $(".container").css({ position: "absolute", border: "10px solid gold" })
-    // TweenMax.set(this.wheel, { transformOrigin: "50% 50%" })
-    // TweenMax.to(this.wheel, 100, {
-    //   rotation: "360",
-    //   ease: Linear.easeNone,
-    //   repeat: -1,
-    // })
   }
 
   mouseAction(evt) {
