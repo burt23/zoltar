@@ -272,3 +272,12 @@ section#homepage {
   max-width: 65vmin;
   z-index: 88;
 }
+
+img {
+  pointer-events: none;
+}
+
+#logoWrapper {
+  height: 88vmin;
+  width: 88vmin;
+}

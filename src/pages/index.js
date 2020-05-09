@@ -26,7 +26,9 @@ const IndexPage = () => (
               <div className="page" id="p1">
                 <section id="homepage">
                   <CitySvg />
-                  <ZoltarLogoTrans />
+                  <div id="logoWrapper">
+                    <ZoltarLogoTrans />
+                  </div>
                 </section>
               </div>
               <div class="page" id="p5">
