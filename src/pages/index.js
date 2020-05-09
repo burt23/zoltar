@@ -2,6 +2,7 @@ import React from "react"
 import ZoltarLogoTrans from "../components/zoltarLogoTrans"
 import CitySvg from "../components/citySvg"
 import GirlWinowSvg from "../components/girlWindowSvg"
+import ZoltarGlitch from "../components/ZoltarGlitch"
 import SEO from "../components/seo"
 import "./index.css"
 import { FaGalacticRepublic } from "react-icons/fa"
@@ -9,6 +10,11 @@ import { GiCastleRuins } from "react-icons/gi"
 
 const IndexPage = () => (
   <>
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela"
+      rel="stylesheet"
+      type="text/css"
+    />
     <SEO />
     <div className="ct" id="t1">
       <div className="ct" id="t2">
@@ -35,14 +41,7 @@ const IndexPage = () => (
                 <CitySvg />
                 <GirlWinowSvg />
                 <section className="banner">
-                  <span class="title">Welcome</span>
-                  <p class="hint">
-                    <span>
-                      Zoltar is a new Jacksonville based band creating all
-                      original music. We are currently accepting gigs throughout
-                      the Jacksonville Area.
-                    </span>
-                  </p>
+                  <ZoltarGlitch />
                 </section>
               </div>
             </div>
