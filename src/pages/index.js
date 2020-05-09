@@ -9,6 +9,8 @@ import SEO from "../components/seo"
 import DoorLock from "../components/doorLock"
 import "./index.css"
 import ZoltarLogoBlack from "../components/zoltarLogoBlack"
+import { FaBeer, FaGalacticSenate, FaGalacticRepublic } from "react-icons/fa"
+import { GiCastleRuins, GiBurningPassion, GiMagicPortal } from "react-icons/gi"
 
 const IndexPage = () => (
   <>
@@ -19,24 +21,26 @@ const IndexPage = () => (
             <div class="ct" id="t5">
               <ul id="menu">
                 <a href="#t1">
-                  <li class="icon fa fa-bolt" id="uno"></li>
+                  <GiCastleRuins className="icon" id="uno" />
                 </a>
                 <a href="#t2">
-                  <li class="icon fa fa-keyboard-o" id="dos"></li>
+                  <FaGalacticSenate className="icon" id="dos" />
                 </a>
                 <a href="#t3">
-                  <li class="icon fa fa-rocket" id="tres"></li>
+                  <FaGalacticRepublic className="icon" id="tres" />
                 </a>
                 <a href="#t4">
-                  <li class="icon fa fa-dribbble" id="cuatro"></li>
+                  <GiBurningPassion className="icon" id="cuatro" />
                 </a>
                 <a href="#t5">
-                  <li class="icon fa fa-plus-circle" id="cinco"></li>
+                  <GiMagicPortal className="icon" id="cinco" />
                 </a>
               </ul>
               <div className="page" id="p1">
                 <section id="homepage">
+                  <CitySvg />
                   <ZoltarLogoBlack />
+                  {/* <ZoltarLogoTrans /> */}
                 </section>
               </div>
               <div className="page" id="p2">
@@ -52,18 +56,16 @@ const IndexPage = () => (
                 </section>
               </div>
               <div class="page" id="p5">
+                <GirlWinowSvg />
                 <section class="icon fa fa-plus-circle">
-                  <GirlWinowSvg />
-                  <span class="title">More</span>
+                  <span class="title">Contact</span>
                   <p class="hint">
-                    <span>You love one page & CSS only stuff? </span>
-                    <br />
-                    <a
-                      href="https://codepen.io/hrtzt/details/pgXMYb/"
-                      target="_blank"
-                    >
-                      check this pen "Pure CSS One page vertical navigation"
-                    </a>
+                    <span>
+                      Sign up for our newsletter today to stay up to date with
+                      the latest Music and content from Zoltar. Make sure to
+                      check us out on Patreon, and we thank you all for the
+                      support and love!{" "}
+                    </span>
                   </p>
                 </section>
               </div>

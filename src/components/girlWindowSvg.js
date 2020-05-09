@@ -7,6 +7,7 @@ export default function girlWindowSVG() {
         xmlns="http://www.w3.org/2000/svg"
         class="portrait"
         viewBox="0 0 398.77 358.79"
+        id="girlWindowSvg"
       >
         <path
           fill="#444"
@@ -1040,7 +1041,7 @@ export default function girlWindowSVG() {
           d="M251.06 148.34v-.3a16.6 16.6 0 0 0-1.2-2.16 3.36 3.36 0 0 0-1.7-.47 2.78 2.78 0 0 0-2.45 1.4 4.93 4.93 0 0 0-.5 1.4.66.66 0 0 0 0 .3 6.78 6.78 0 0 0 1.9 2.3c.2 0 .3.1.4.1a3.42 3.42 0 0 0 3.7-2.2.94.94 0 0 0 0-.2z"
         />
       </svg>
-      <div class="frame"></div>
+      <div className="frame"></div>
     </div>
   )
 }

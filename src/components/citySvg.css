@@ -9,13 +9,11 @@
 
 .container {
   top: 0;
-  left: 10v;
+  left: 0;
   height: 100vh !important;
-  width: 90vw !important;
+  width: 97vw !important;
   position: absolute;
-  margin: 0 auto;
-  height: auto;
-  display: block;
+  display: flex;
 }
 
 .house {
