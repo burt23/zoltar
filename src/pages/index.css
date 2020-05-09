@@ -245,16 +245,13 @@ a {
 .gatsby-image-wrapper {
   max-height: 100vmin;
   max-width: 100vmin;
-  /* min-width: 50vmin;
-  min-height: 50vmin; */
   display: flex;
-  /* border: 10px solid; */
   position: absolute;
   width: 100vw;
   top: 0;
   left: 0;
   height: 100vh;
-  margin: 0 auto;
+  pointer-events: none;
 }
 section#homepage {
   display: flex;
@@ -266,4 +263,5 @@ section#homepage {
   /* border: 10px solid green; */
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
