@@ -5,3 +5,9 @@
   height: 50vmax;
   width: 50vmax;
 }
+
+svg#girlWindowSvg {
+  left: 10vw;
+  position: absolute;
+  bottom: -10vh;
+}
