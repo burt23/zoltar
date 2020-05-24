@@ -3,7 +3,7 @@ import ZoltarLogoTrans from "../components/zoltarLogoTrans"
 import CitySvg from "../components/citySvg"
 import GirlWinowSvg from "../components/girlWindowSvg"
 import ZoltarGlitch from "../components/ZoltarGlitch"
-// import SocialIcons from "../components/SocialIcons"
+import SocialIcons from "../components/socialIcons"
 // import Subscribe from "../components/subscribe"
 import SEO from "../components/seo"
 import "./index.css"
@@ -36,6 +36,7 @@ const IndexPage = () => (
                   <div id="logoWrapper">
                     <ZoltarLogoTrans />
                   </div>
+                  <SocialIcons />
                 </section>
               </div>
               <div class="page" id="p5">
@@ -43,6 +44,7 @@ const IndexPage = () => (
                 <GirlWinowSvg />
                 <section className="banner">
                   <ZoltarGlitch />
+                  <p class="hint">{/* <SocialIcons /> */}</p>
                 </section>
               </div>
             </div>
