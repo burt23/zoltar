@@ -243,8 +243,8 @@ a {
 }
 
 .gatsby-image-wrapper {
-  max-height: 88vmin;
-  max-width: 88vmin;
+  max-height: 80vmin;
+  max-width: 80vmin;
   display: flex;
   position: absolute;
   width: 100vw;
@@ -278,8 +278,14 @@ img {
 }
 
 #logoWrapper {
-  height: 88vmin;
-  width: 88vmin;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body {
   background: black;

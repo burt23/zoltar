@@ -24,15 +24,16 @@ const IndexPage = () => (
             <div className="ct" id="t5">
               <ul id="menu">
                 <a href="#t1">
-                  <GiCastleRuins className="icon" size="2x" id="uno" />
+                  <GiCastleRuins className="icon" size="1x" id="uno" />
                 </a>
                 <a href="#t5">
-                  <GiMagicPortal className="icon" size="2x" id="cinco" />
+                  <GiMagicPortal className="icon" size="1x" id="cinco" />
                 </a>
               </ul>
               <div className="page" id="p1">
                 <section id="homepage">
                   <CitySvg />
+                  {/* <Subscribe /> */}
                   <div id="logoWrapper">
                     <ZoltarLogoTrans />
                   </div>

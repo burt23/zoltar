@@ -9,8 +9,8 @@ const ZoltarGlicth = () => (
       type="text/css"
     />
 
-    <div class="glitch" data-text="ZOLTAR">
-      ZOLTAR
+    <div class="glitch" data-text="ZOLTAR MACHINE">
+      ZOLTAR MACHINE
     </div>
   </>
 )
