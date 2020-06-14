@@ -22,32 +22,32 @@ const IndexPage = () => (
         <div className="ct" id="t3">
           <div className="ct" id="t4">
             <div className="ct" id="t5">
-              <ul id="menu">
+              {/* <ul id="menu">
                 <a href="#t1">
                   <GiCastleRuins className="icon" size="1x" id="uno" />
                 </a>
                 <a href="#t5">
                   <GiMagicPortal className="icon" size="1x" id="cinco" />
                 </a>
-              </ul>
+              </ul> */}
               <div className="page" id="p1">
                 <section id="homepage">
                   <CitySvg />
                   {/* <Subscribe /> */}
-                  <div id="logoWrapper">
+                  {/* <div id="logoWrapper">
                     <ZoltarLogoTrans />
                   </div>
-                  <SocialIcons />
+                  <SocialIcons /> */}
                 </section>
               </div>
-              <div class="page" id="p5">
+              {/* <div class="page" id="p5">
                 <CitySvg />
                 <GirlWinowSvg />
                 <section className="banner">
                   <ZoltarGlitch />
-                  <p class="hint">{/* <SocialIcons /> */}</p>
+                  <p class="hint"><SocialIcons /></p>
                 </section>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
